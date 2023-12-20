@@ -128,7 +128,7 @@ define_function SyncEvent(_NAVNtpClient client) {
 define_function NAVModulePropertyEventCallback(_NAVModulePropertyEvent event) {
     switch (event.Name) {
         case NAV_MODULE_PROPERTY_EVENT_IP_ADDRESS: {
-            module.Device.SocketConnection.Address = event.Args[1]
+            client.SocketConnection.Address = event.Args[1]
         }
     }
 }
