@@ -34,7 +34,7 @@
     "devDependencies": {
         "@commitlint/cli": "^18.4.3",
         "@commitlint/config-conventional": "^18.4.3",
-        "@norgate-av/genlinx": "^1.0.0",
+        "@norgate-av/genlinx": "^1.1.4",
         "all-contributors-cli": "^6.24.0",
         "commitizen": "^4.3.0",
         "cz-conventional-changelog": "3.3.0",
